@@ -15,7 +15,7 @@ const functions = require("./structs/functions.js");
 if (!fs.existsSync("./ClientSettings")) fs.mkdirSync("./ClientSettings");
 
 global.JWT_SECRET = "LAWIN_BACKEND";
-const PORT = 8080;
+const PORT = 3551;
 
 global.exchangeCodes = [];
 
