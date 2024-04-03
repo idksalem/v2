@@ -21,7 +21,7 @@ and no this has nothing to do with launching fortnite itself
 
 ----------------------------------------------------------------------
 
-8) Use something to redirect the Fortnite servers to localhost:3551. (I reccomend Fiddler, Below the instrusctions i will provide the command to do this. You can also use a ssl bypass that redirects servers, or somthing like craniun)
+8) Use something to redirect the Fortnite servers to localhost:3551. (I reccomend Fiddler, Below the instructions I will provide the command to do this. You can also use a ssl bypass that redirects servers, or somthing like cranium)
 9) Go to the discord and create TWO accounts one for you and one for the server when launching the server whether it be manually or with a launcher PLEASE make sure its logged into a REAL account.
 10) When Fortnite launches and is connected to the backend, enter your email and password (or launch with an exchange code) then press login. It should let you in and everything should be working fine.
 
