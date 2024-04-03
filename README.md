@@ -1,5 +1,6 @@
 # SalemMP
 ### SalemMP is a modified fork of LawinServerV2 MASSIVE Credits to Milxnor and Lawin
+and no this has nothing to do with launching fortnite itself
 
 
 ## How to host SalemMP
