@@ -13,10 +13,10 @@
 
 ----------------------------------------------------------------------
 
-BACKEND: App started listening on port 3551
-XMPP: XMPP and Matchmaker started listening on port 80
-BACKEND: App successfully connected to MongoDB!
-BOT: Bot is up and running!
+1) BACKEND: App started listening on port 3551
+2) XMPP: XMPP and Matchmaker started listening on port 80
+3) BACKEND: App successfully connected to MongoDB!
+4) BOT: Bot is up and running!
 
 ----------------------------------------------------------------------
 
