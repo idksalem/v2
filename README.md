@@ -20,36 +20,12 @@
 
 ----------------------------------------------------------------------
 
-8) Use something to redirect the Fortnite servers to localhost:3551. (I reccomend Fiddler, Below the instructions i will provide the command to do this. You can also use a ssl bypass that redirects servers, or somthing like craniun)
+8) Use something to redirect the Fortnite servers to localhost:3551. (I reccomend Fiddler, Below the instrusctions i will provide the command to do this. You can also use a ssl bypass that redirects servers, or somthing like craniun)
 9) Go to the discord and create TWO accounts one for you and one for the server when launching the server whether it be manually or with a launcher PLEASE make sure its logged into a REAL account.
 10) When Fortnite launches and is connected to the backend, enter your email and password (or launch with an exchange code) then press login. It should let you in and everything should be working fine.
 
 ## Fiddler Command
-
-import System;
-import System.IO;
-import System.Threading;
-import System.Web;
-import System.Windows.Forms;
-import Fiddler;
-
-class Handlers
-{
-    static function OnBeforeRequest(oSession: Session) {
-        if (oSession.hostname.Contains(".ol.epicgames.com"))
-        {
-            if (oSession.HTTPMethodIs("CONNECT"))
-            {
-                // This is just a fake tunnel for CONNECT requests
-                oSession["x-replywithtunnel"] = "FortniteTunnel";
-                return;
-            }
-
-            oSession.fullUrl = "http://127.0.0.1:3551" + oSession.PathAndQuery;
-        }
-    }
-}
-
+https://pastebin.com/e0xSCzVE
 
 ### How to set up moderators?
 1) Go to Config/config.json in the directory you extracted LawinServerV2 into.
